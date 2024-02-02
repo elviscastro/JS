@@ -13,6 +13,8 @@ if (opcao0 == 1) {
         linguagens = prompt(
           "Tem mais alguma tecnologia que você gostaria de aprender?",
         );
+        if (linguagens != null)
+        alert(`${linguagens} é realmente uma tecnologia muito legal!`);
       }
     } else {
       alert("Ok, boa sorte na sua carreira de Back-end Java.");
@@ -26,6 +28,8 @@ if (opcao0 == 1) {
         linguagens = prompt(
           "Tem mais alguma tecnologia que você gostaria de aprender?",
         );
+        if (linguagens != null)
+          alert(`${linguagens} é realmente uma tecnologia muito legal!`);
       }
     } else {
       alert("Ok, boa sorte na sua carreira de Back-end Java.");
@@ -33,7 +37,7 @@ if (opcao0 == 1) {
   } else {
     alert("Você não digitou um número válido.");
   }
-} else if (opcao1 == 2) {
+} else if (opcao0 == 2) {
   const opcao2 = prompt("Deseja aprender C# (1) ou Java (2)?");
   if (opcao2 == 1) {
     const opcao3 = prompt(
@@ -44,6 +48,8 @@ if (opcao0 == 1) {
         linguagens = prompt(
           "Tem mais alguma tecnologia que você gostaria de aprender?",
         );
+        if (linguagens != null)
+          alert(`${linguagens} é realmente uma tecnologia muito legal!`);
       }
     } else {
       alert("Ok, boa sorte na sua carreira de Back-end Java.");
@@ -57,6 +63,8 @@ if (opcao0 == 1) {
         linguagens = prompt(
           "Tem mais alguma tecnologia que você gostaria de aprender?",
         );
+        if (linguagens != null)
+          alert(`${linguagens} é realmente uma tecnologia muito legal!`);
       }
     } else {
       alert("Ok, boa sorte na sua carreira de Back-end Java.");
